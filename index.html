@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>register form</h1>
+      <br><br>
+      <form class="form">
+        <div class="parents">
+          <label for="name">first Name</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter your first name"
+          />
+        </div>
+        <div class="parents">
+          <label for="username">last Name</label>
+          <br />
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="enter your last name"
+          />
+        </div>
+        
+        <div class="parents">
+          <label for="password">password</label>
+         <br>
+          <input type="password" name="password"id="password"placeholder="enter your password"/>
+        </div>
+        <div class="parents">
+          <label for="select">subjects</label>
+          
+          <br/>
+          <div class="parents">
+          <select name="select">
+            <option value="select">select an option</option>
+            <option>math</option>
+            <option>chemistry</option>
+            <option>physics</option>
+          </select>
+        </div>
+        <div class="parents">
+          <button type="submit">submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
